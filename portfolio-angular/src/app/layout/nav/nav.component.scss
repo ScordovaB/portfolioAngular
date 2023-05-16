@@ -1,1 +1,39 @@
+.header {
+  position: relative; //si es fixed el component se pone abajo
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  //padding-top: 2rem;
+  //padding-bottom: 2rem;
+  //padding-right: 2rem;
+  padding-left: 1rem;
+  background: var(--main-contrast-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100%;
+}
 
+.logo {
+  font-size: x-large;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.navbar a {
+  font-size: medium;
+  color: var(--text-color);
+  font-weight: 500;
+  margin-left: 2rem;
+
+
+}
+
+.navbar a:hover {
+  color: var(--bg-color);
+}
+
+.resHome {
+  display: none;
+}
