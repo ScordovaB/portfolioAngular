@@ -1,5 +1,5 @@
 .header {
-  position: relative; //si es fixed el component se pone abajo
+  position: fixed; //si es fixed el component se pone abajo
   top: 0;
   left: 0;
   width: 100%;
@@ -8,7 +8,7 @@
   //padding-bottom: 2rem;
   //padding-right: 2rem;
   padding-left: 1rem;
-  background: var(--main-contrast-color);
+  background: transparent;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,9 +30,15 @@
 
 }
 
+// .navbar a:active {
+//   color: var(--bg-color);
+// }
+
 .navbar a:hover {
-  color: var(--bg-color);
+  color: var(--main-contrast-color);
 }
+
+
 
 .resHome {
   display: none;
