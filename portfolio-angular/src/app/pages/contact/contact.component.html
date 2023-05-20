@@ -1,1 +1,37 @@
-<p>contact works!</p>
+<section class="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+
+  <form action="">
+    <div class="input-box">
+      <div class="input-field" id="left">
+        <input type="text" placeholder="Full Name" name="name" required>
+        <span class="focus"></span>
+      </div>
+      <div class="input-field">
+        <input type="text" placeholder="Email" name="email" required>
+        <span class="focus"></span>
+      </div>
+    </div>
+
+
+    <div class="input-box">
+      <div class="input-field" id="left">
+        <input type="number" placeholder="Mobile Number" name="mobilenumber">
+        <span class="focus"></span>
+      </div>
+      <div class="input-field">
+        <input type="text" placeholder="Subject" required name="subject">
+        <span class="focus"></span>
+      </div>
+    </div>
+
+    <div class="textarea-field">
+      <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message here!" required></textarea>
+      <span class="focus"></span>
+    </div>
+    <input type="hidden" name="_next" value="http://localhost:4200/education">
+    <div class="btn-box">
+      <button mat-raised-button type="submit" class="btn" value="Send Email" (click)="send();">{{sendText}}</button>
+    </div>
+  </form>
+</section>
