@@ -11,6 +11,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { SidenavComponent } from './layout/sidenav/sidenav.component';
 import { EducationComponent } from './pages/education/education.component';
 import { SkillsComponent } from './pages/skills/skills.component';
+import { ProyectsComponent } from './pages/proyects/proyects.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SkillsComponent } from './pages/skills/skills.component';
     ContactComponent,
     SidenavComponent,
     EducationComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProyectsComponent
   ],
   imports: [
     BrowserModule,

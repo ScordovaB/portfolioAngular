@@ -196,3 +196,11 @@ section {
   }
 
 }
+
+.neon {
+  color: var(--text-color);
+  text-shadow: 0 0 2px #03e9f4,
+    0 0 4px #03e9f4,
+    0 0 8px #03e9f4,
+    0 0 16px #03e9f4;
+}

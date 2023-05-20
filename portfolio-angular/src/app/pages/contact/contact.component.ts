@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
   sendText:string ='Send';
+  thanksMessage:string = '';
 
   constructor(){
 
@@ -16,7 +17,9 @@ export class ContactComponent {
   send(){
     this.sendText = 'Sending...';
     setTimeout(()=>{
+      this.thanksMessage='Thanks for your message!';
       this.sendText='Send';
     },3000);
+    this.thanksMessage='';
   }
 }
