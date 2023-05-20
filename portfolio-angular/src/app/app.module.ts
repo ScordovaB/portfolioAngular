@@ -10,6 +10,7 @@ import { MaterialModule } from './modules/material/material.module';
 import { ContactComponent } from './pages/contact/contact.component';
 import { SidenavComponent } from './layout/sidenav/sidenav.component';
 import { EducationComponent } from './pages/education/education.component';
+import { SkillsComponent } from './pages/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EducationComponent } from './pages/education/education.component';
     NavComponent,
     ContactComponent,
     SidenavComponent,
-    EducationComponent
+    EducationComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
