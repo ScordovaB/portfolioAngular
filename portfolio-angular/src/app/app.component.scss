@@ -1,3 +1,16 @@
 .main {
   height: 100%;
 }
+
+.nav {
+  z-index: 1;
+  position: relative;
+}
+
+
+
+@media (max-width:1200px) {
+  body {
+    font-size: 50%;
+  }
+}

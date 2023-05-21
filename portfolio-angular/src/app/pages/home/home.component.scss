@@ -204,3 +204,10 @@ section {
     0 0 8px #03e9f4,
     0 0 16px #03e9f4;
 }
+
+@media (max-width:768px) {
+
+  .home {
+    background: var(--bg-color);
+  }
+}

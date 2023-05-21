@@ -1,14 +1,17 @@
 <header class="header">
   <a routerLink="" class=" logo">Santiago C.</a>
-  <nav class="navbar">
+  <div><button mat-icon-button class="resHome" (click)="navClick()">
+      <mat-icon>{{navButton}}</mat-icon>
+    </button>
+  </div>
+  <nav class="{{navClass}}">
     <a routerLink="">Home</a>
     <a routerLink="/education">Education</a>
     <a routerLink="/skills">Skills</a>
     <a routerLink="/proyects">Projects</a>
     <a routerLink="/contact">Contact</a>
+    <span class="active-nav"></span>
   </nav>
 
-  <button mat-icon-button class="resHome">
-    <mat-icon>menu</mat-icon>
-  </button>
+
 </header>
