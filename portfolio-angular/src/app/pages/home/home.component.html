@@ -11,7 +11,9 @@
     <p class="neon">Looking for Part Time Job (Internship) - Remote OR in Guadalajara, Mexico</p>
     <div class="btn-box">
       <a mat-raised-button routerLink="/contact" class="btn">Contact Me</a>
-      <a mat-raised-button href="" class="btn">Get my Resume</a>
+      <a mat-raised-button class="btn" (click)="downloadF()" href="../../../assets/CV.pdf" Download="CV.pdf">
+        <mat-icon>{{dlButton}}</mat-icon> {{download}}
+      </a>
     </div>
   </div>
 

@@ -7,7 +7,7 @@ import { SkillsComponent } from './pages/skills/skills.component';
 import { ProyectsComponent } from './pages/proyects/proyects.component';
 
 const routes: Routes = [
-  { path: '',component:HomeComponent},
+  { path: '',component:HomeComponent}, //data:{animation:'main'}
   { path:'contact',component:ContactComponent},
   { path:'education',component:EducationComponent},
   { path:'skills',component:SkillsComponent},

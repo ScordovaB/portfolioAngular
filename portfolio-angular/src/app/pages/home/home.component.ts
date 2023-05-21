@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  download:string = 'Download CV';
+  dlButton:string = 'download';
+  constructor(){}
+
+  downloadF(){
+    this.download = 'Downloading...';
+    this.dlButton = 'downloading';
+    setTimeout(()=>{
+      this.download='Download CV';
+      this.dlButton = 'download';
+    },6000);
+  }
 }
